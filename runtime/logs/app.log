@@ -1,0 +1,1733 @@
+2018-06-06 20:15:08 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in C:\OSPanel\domains\localhost\gltest.local\controllers\SiteController.php:151
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-06-06 20:15:08 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][info][application] $_GET = [
+    'r' => 'site/entry'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'q2l91jm2m20b3hqr17cbgk0di5'
+    '_csrf' => 'c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'winokis'
+    '__captcha/site/captchacount' => 1
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=q2l91jm2m20b3hqr17cbgk0di5; _csrf=c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/localhost/gltest.local/web/index.php'
+    'REMOTE_PORT' => '63550'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fentry'
+    'REQUEST_URI' => '/gltest.local/web/index.php?r=site%2Fentry'
+    'SCRIPT_NAME' => '/gltest.local/web/index.php'
+    'PHP_SELF' => '/gltest.local/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528305308.274
+    'REQUEST_TIME' => 1528305308
+    'argv' => [
+        0 => 'r=site%2Fentry'
+    ]
+    'argc' => 1
+]
+2018-06-06 22:44:29 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: users/entry' in C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Controller.php:128
+Stack trace:
+#0 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('entry', Array)
+#1 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('users/entry', Array)
+#2 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\OSPanel\domains\localhost\gltest.local\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\localhost\gltest.local\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-06-06 22:44:29 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][info][application] $_GET = [
+    'r' => 'users/entry'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'q2l91jm2m20b3hqr17cbgk0di5'
+    '_csrf' => 'c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'winokis'
+    '__captcha/site/captchacount' => 1
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=q2l91jm2m20b3hqr17cbgk0di5; _csrf=c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/localhost/gltest.local/web/index.php'
+    'REMOTE_PORT' => '63125'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users%2Fentry'
+    'REQUEST_URI' => '/gltest.local/web/index.php?r=users%2Fentry'
+    'SCRIPT_NAME' => '/gltest.local/web/index.php'
+    'PHP_SELF' => '/gltest.local/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1528314269.145
+    'REQUEST_TIME' => 1528314269
+    'argv' => [
+        0 => 'r=users%2Fentry'
+    ]
+    'argc' => 1
+]
+2018-06-10 16:56:38 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/index".' in C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#1 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\localhost\gltest.local\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\localhost\gltest.local\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-06-10 16:56:38 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'q2l91jm2m20b3hqr17cbgk0di5'
+    '_csrf' => 'c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'winokis'
+    '__captcha/site/captchacount' => 1
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=q2l91jm2m20b3hqr17cbgk0di5; _csrf=c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/localhost/gltest.local/web/index.php'
+    'REMOTE_PORT' => '25263'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Findex'
+    'REQUEST_URI' => '/gltest.local/web//index.php?r=user%2Findex'
+    'SCRIPT_NAME' => '/gltest.local/web//index.php'
+    'PHP_SELF' => '/gltest.local/web//index.php'
+    'REQUEST_TIME_FLOAT' => 1528638998.695
+    'REQUEST_TIME' => 1528638998
+    'argv' => [
+        0 => 'r=user%2Findex'
+    ]
+    'argc' => 1
+]
+2018-06-10 16:56:45 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\Users::code' in C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('code')
+#1 C:\OSPanel\domains\localhost\gltest.local\views\users\index.php(16): yii\db\BaseActiveRecord->__get('code')
+#2 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\View.php(336): require('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#4 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\OSPanel\\doma...', Array, Object(app\controllers\UsersController))
+#5 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\UsersController))
+#6 C:\OSPanel\domains\localhost\gltest.local\controllers\UsersController.php(28): yii\base\Controller->render('index', Array)
+#7 [internal function]: app\controllers\UsersController->actionIndex()
+#8 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('index', Array)
+#11 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('users/index', Array)
+#12 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\OSPanel\domains\localhost\gltest.local\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2018-06-10 16:56:44 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][info][application] $_GET = [
+    'r' => 'users/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'q2l91jm2m20b3hqr17cbgk0di5'
+    '_csrf' => 'c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'winokis'
+    '__captcha/site/captchacount' => 1
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=q2l91jm2m20b3hqr17cbgk0di5; _csrf=c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/localhost/gltest.local/web/index.php'
+    'REMOTE_PORT' => '25276'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=users%2Findex'
+    'REQUEST_URI' => '/gltest.local/web//index.php?r=users%2Findex'
+    'SCRIPT_NAME' => '/gltest.local/web//index.php'
+    'PHP_SELF' => '/gltest.local/web//index.php'
+    'REQUEST_TIME_FLOAT' => 1528639004.868
+    'REQUEST_TIME' => 1528639004
+    'argv' => [
+        0 => 'r=users%2Findex'
+    ]
+    'argc' => 1
+]
+2018-06-10 16:56:51 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/index".' in C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#1 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\localhost\gltest.local\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\localhost\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\localhost\gltest.local\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-06-10 16:56:51 [127.0.0.1][100][q2l91jm2m20b3hqr17cbgk0di5][info][application] $_GET = [
+    'r' => 'user/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'q2l91jm2m20b3hqr17cbgk0di5'
+    '_csrf' => 'c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'winokis'
+    '__captcha/site/captchacount' => 1
+    '__id' => '100'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.181 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=q2l91jm2m20b3hqr17cbgk0di5; _csrf=c72cd530cca2c535b05497596f789677dd9900e005f9d2395eabd41ab9047a9fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22MlgAXP4OSxv8WIGrPQReuKR5QZl1AE-Q%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/localhost'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/localhost/gltest.local/web/index.php'
+    'REMOTE_PORT' => '25288'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=user%2Findex'
+    'REQUEST_URI' => '/gltest.local/web//index.php?r=user%2Findex'
+    'SCRIPT_NAME' => '/gltest.local/web//index.php'
+    'PHP_SELF' => '/gltest.local/web//index.php'
+    'REQUEST_TIME_FLOAT' => 1528639011.304
+    'REQUEST_TIME' => 1528639011
+    'argv' => [
+        0 => 'r=user%2Findex'
+    ]
+    'argc' => 1
+]
+2018-06-10 21:50:49 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\UnknownClassException] exception 'yii\base\UnknownClassException' with message 'Unable to find 'app\controllers\admin\UserController' in file: C:\OSPanel\domains\gltest.local/controllers/admin/UserController.php. Namespace missing?' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('app\\controllers...')
+#1 [internal function]: spl_autoload_call('app\\controllers...')
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(637): class_exists('app\\controllers...')
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(598): yii\base\Module->createControllerByID('admin/user')
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController('admin/user')
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/user', Array)
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#8 {main}
+2018-06-10 21:50:49 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '16702'
+    'REDIRECT_URL' => '/admin/user'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528656649.831
+    'REQUEST_TIME' => 1528656649
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 21:56:46 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php:27
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\migrations\m140506_102106_rbac_init.php(51): m140506_102106_rbac_init->getAuthManager()
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m140506_102106_rbac_init->up()
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m140506_102106_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 C:\OSPanel\domains\gltest.local\yii(20): yii\base\Application->run()
+#12 {main}
+2018-06-10 21:56:44 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '88x10000 (88x26)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\Andrey\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PECHATAYBY'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuArgs2' => ''
+    'ConEmuBackHWND' => '0x00080E50'
+    'ConEmuBaseDir' => 'C:\\ospanel\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '161206'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'C:\\ospanel\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x0006100E'
+    'ConEmuDrive' => 'C:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x004D0E84'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPalette' => '<ConEmu>'
+    'ConEmuPID' => '4616'
+    'ConEmuPrompt0' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S$E]9;12$E\\'
+    'ConEmuServerPID' => '7768'
+    'ConEmuTask' => '{Shells::cmd}'
+    'ConEmuWorkDir' => 'c:\\ospanel'
+    'ConEmuWorkDrive' => 'c:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'c:\\ospanel'
+    'HOMEDRIVE' => 'c:'
+    'HOMEPATH' => '\\ospanel'
+    'LOCALAPPDATA' => 'C:\\Users\\Andrey\\AppData\\Local'
+    'LOGONSERVER' => '\\\\PECHATAYBY'
+    'MAGICK_CODER_FILTER_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'c:\\ospanel\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_HOME' => 'c:\\ospanel\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'c:\\ospanel\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '2'
+    'OPENSSL_CONF' => 'c:\\ospanel\\modules\\http\\Apache-2.4\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ospanel\\modules\\conemu\\ConEmu\\Scripts;C:\\ospanel\\modules\\conemu;C:\\ospanel\\modules\\conemu\\ConEmu;c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\php.exe'
+    'PHPDIR' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\'
+    'PHPRC' => 'c:\\ospanel\\modules\\php\\PHP-5.6'
+    'PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\php.exe'
+    'PHP_BINARY' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\php.exe'
+    'PHP_BINDIR' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\'
+    'PHP_DIR' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\'
+    'PHP_INI' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_IDENTIFIER' => 'x86 Family 6 Model 23 Stepping 6, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '1706'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'PROMPT' => '$E[m$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S$E]9;12$E\\'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SESSIONNAME' => 'Console'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TEMP' => 'c:\\ospanel\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'c:\\ospanel\\userdata\\temp'
+    'USERDOMAIN' => 'PECHATAYBY'
+    'USERNAME' => 'Andrey'
+    'USERPROFILE' => 'C:\\Users\\Andrey'
+    'VS120COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 12.0\\Common7\\Tools\\'
+    'VS140COMNTOOLS' => 'C:\\Program Files\\Microsoft Visual Studio 14.0\\Common7\\Tools\\'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'windows_tracing_logfile' => 'C:\\BVTBin\\Tests\\installpackage\\csilogfile.log'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1528657004.8787
+    'REQUEST_TIME' => 1528657004
+    'argv' => [
+        0 => 'yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@yii/rbac/migrations/'
+    ]
+    'argc' => 3
+]
+2018-06-10 22:02:29 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'PRIMARY'' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\DbManager.php(283): yii\db\Command->execute()
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\BaseManager.php(133): yii\rbac\DbManager->addItem(Object(yii\rbac\Role))
+#4 C:\OSPanel\domains\gltest.local\controllers\SiteController.php(155): yii\rbac\BaseManager->add(Object(yii\rbac\Role))
+#5 [internal function]: app\controllers\SiteController->actionRoles()
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('admin', 1, 'Админ', NULL, NULL, 1528657349, 1528657349)' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\DbManager.php(283): yii\db\Command->execute()
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\BaseManager.php(133): yii\rbac\DbManager->addItem(Object(yii\rbac\Role))
+#4 C:\OSPanel\domains\gltest.local\controllers\SiteController.php(155): yii\rbac\BaseManager->add(Object(yii\rbac\Role))
+#5 [internal function]: app\controllers\SiteController->actionRoles()
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'admin' for key 'PRIMARY'
+)
+
+2018-06-10 22:02:29 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '17097'
+    'REDIRECT_URL' => '/site/roles'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/roles'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528657349.49
+    'REQUEST_TIME' => 1528657349
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:04:00 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin-1' for key 'PRIMARY'' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\DbManager.php(858): yii\db\Command->execute()
+#3 C:\OSPanel\domains\gltest.local\controllers\SiteController.php(159): yii\rbac\DbManager->assign(Object(yii\rbac\Role), '<span class="nu...')
+#4 [internal function]: app\controllers\SiteController->actionRoles()
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin-1' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('1', 'admin', 1528657440)' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\DbManager.php(858): yii\db\Command->execute()
+#3 C:\OSPanel\domains\gltest.local\controllers\SiteController.php(159): yii\rbac\DbManager->assign(Object(yii\rbac\Role), '<span class="nu...')
+#4 [internal function]: app\controllers\SiteController->actionRoles()
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'admin-1' for key 'PRIMARY'
+)
+
+2018-06-10 22:04:00 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '17150'
+    'REDIRECT_URL' => '/site/roles'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/roles'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528657439.995
+    'REQUEST_TIME' => 1528657439
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:04:02 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\db\IntegrityException] exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin-1' for key 'PRIMARY'' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php:1258
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1258): PDOStatement->execute()
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\DbManager.php(858): yii\db\Command->execute()
+#3 C:\OSPanel\domains\gltest.local\controllers\SiteController.php(159): yii\rbac\DbManager->assign(Object(yii\rbac\Role), '<span class="nu...')
+#4 [internal function]: app\controllers\SiteController->actionRoles()
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#11 {main}
+
+Next exception 'yii\db\IntegrityException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'admin-1' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_assignment` (`user_id`, `item_name`, `created_at`) VALUES ('1', 'admin', 1528657442)' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1263): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\Command.php(1075): yii\db\Command->internalExecute('<span class="st...')
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\rbac\DbManager.php(858): yii\db\Command->execute()
+#3 C:\OSPanel\domains\gltest.local\controllers\SiteController.php(159): yii\rbac\DbManager->assign(Object(yii\rbac\Role), '<span class="nu...')
+#4 [internal function]: app\controllers\SiteController->actionRoles()
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array('[<span class="t...', '[]')
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams('[]')
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('<span class="st...', '[]')
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('<span class="st...', '[]')
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#11 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'admin-1' for key 'PRIMARY'
+)
+
+2018-06-10 22:04:02 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '17174'
+    'REDIRECT_URL' => '/site/roles'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/roles'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528657442.487
+    'REQUEST_TIME' => 1528657442
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:18:36 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\widgets\ActiveField::input(), called in C:\OSPanel\domains\gltest.local\views\admin\user\form.php on line 13 and defined' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\widgets\ActiveField.php:363
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\widgets\ActiveField.php(363): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'C:\\OSPanel\\doma...', 363, Array)
+#1 C:\OSPanel\domains\gltest.local\views\admin\user\form.php(13): yii\widgets\ActiveField->input()
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(336): require('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\OSPanel\\doma...', Array, Object(app\controllers\admin\UserController))
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('form', Array, Object(app\controllers\admin\UserController))
+#6 C:\OSPanel\domains\gltest.local\controllers\admin\UserController.php(136): yii\base\Controller->render('form', Array)
+#7 [internal function]: app\controllers\admin\UserController->actionRecord()
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('record', Array)
+#11 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/user/reco...', Array)
+#12 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2018-06-10 22:18:36 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '17222'
+    'REDIRECT_URL' => '/admin/user/record'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user/record'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528658316.842
+    'REQUEST_TIME' => 1528658316
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:19:49 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 1 for yii\widgets\ActiveField::input(), called in C:\OSPanel\domains\gltest.local\views\admin\user\form.php on line 14 and defined' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\widgets\ActiveField.php:363
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\widgets\ActiveField.php(363): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'C:\\OSPanel\\doma...', 363, Array)
+#1 C:\OSPanel\domains\gltest.local\views\admin\user\form.php(14): yii\widgets\ActiveField->input()
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(336): require('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\OSPanel\\doma...', Array, Object(app\controllers\admin\UserController))
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('form', Array, Object(app\controllers\admin\UserController))
+#6 C:\OSPanel\domains\gltest.local\controllers\admin\UserController.php(136): yii\base\Controller->render('form', Array)
+#7 [internal function]: app\controllers\admin\UserController->actionRecord()
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('record', Array)
+#11 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/user/reco...', Array)
+#12 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2018-06-10 22:19:48 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '17248'
+    'REDIRECT_URL' => '/admin/user/record'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user/record'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528658388.973
+    'REQUEST_TIME' => 1528658388
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:30:17 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\grid\DataColumn::update' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php:163
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(546): yii\base\BaseObject->__set('update', Object(Closure))
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php(107): yii\BaseYii::configure(Object(yii\grid\DataColumn), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\grid\\DataCo...', Array, Array)
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\grid\\DataCo...', Array, Array)
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\grid\GridView.php(547): yii\BaseYii::createObject(Array)
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\grid\GridView.php(283): yii\grid\GridView->initColumns()
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\grid\GridView->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#11 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\grid\\GridVi...', Array, Array)
+#12 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\grid\\GridVi...', Array, Array)
+#13 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#14 C:\OSPanel\domains\gltest.local\views\admin\user\index.php(45): yii\base\Widget::widget(Array)
+#15 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(336): require('C:\\OSPanel\\doma...')
+#16 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#17 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\OSPanel\\doma...', Array, Object(app\controllers\admin\UserController))
+#18 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\admin\UserController))
+#19 C:\OSPanel\domains\gltest.local\controllers\admin\UserController.php(44): yii\base\Controller->render('index', Array)
+#20 [internal function]: app\controllers\admin\UserController->actionIndex()
+#21 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#22 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#23 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#24 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/user/', Array)
+#25 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#27 {main}
+2018-06-10 22:30:16 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '18213'
+    'REDIRECT_URL' => '/admin/user/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528659016.74
+    'REQUEST_TIME' => 1528659016
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:31:19 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\grid\DataColumn::update' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php:163
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(546): yii\base\BaseObject->__set('update', Object(Closure))
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php(107): yii\BaseYii::configure(Object(yii\grid\DataColumn), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\grid\\DataCo...', Array, Array)
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\grid\\DataCo...', Array, Array)
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\grid\GridView.php(547): yii\BaseYii::createObject(Array)
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\grid\GridView.php(283): yii\grid\GridView->initColumns()
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\grid\GridView->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#11 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\grid\\GridVi...', Array, Array)
+#12 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\grid\\GridVi...', Array, Array)
+#13 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#14 C:\OSPanel\domains\gltest.local\views\admin\user\index.php(45): yii\base\Widget::widget(Array)
+#15 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(336): require('C:\\OSPanel\\doma...')
+#16 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#17 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\OSPanel\\doma...', Array, Object(app\controllers\admin\UserController))
+#18 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\admin\UserController))
+#19 C:\OSPanel\domains\gltest.local\controllers\admin\UserController.php(44): yii\base\Controller->render('index', Array)
+#20 [internal function]: app\controllers\admin\UserController->actionIndex()
+#21 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#22 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#23 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#24 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/user/', Array)
+#25 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#27 {main}
+2018-06-10 22:31:18 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '18347'
+    'REDIRECT_URL' => '/admin/user/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528659078.047
+    'REQUEST_TIME' => 1528659078
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:32:02 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\grid\DataColumn::update' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php:163
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(546): yii\base\BaseObject->__set('update', Object(Closure))
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php(107): yii\BaseYii::configure(Object(yii\grid\DataColumn), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\grid\\DataCo...', Array, Array)
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\grid\\DataCo...', Array, Array)
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\grid\GridView.php(547): yii\BaseYii::createObject(Array)
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\grid\GridView.php(283): yii\grid\GridView->initColumns()
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\grid\GridView->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#11 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\grid\\GridVi...', Array, Array)
+#12 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\grid\\GridVi...', Array, Array)
+#13 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#14 C:\OSPanel\domains\gltest.local\views\admin\user\index.php(45): yii\base\Widget::widget(Array)
+#15 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(336): require('C:\\OSPanel\\doma...')
+#16 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#17 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\OSPanel\\doma...', Array, Object(app\controllers\admin\UserController))
+#18 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\admin\UserController))
+#19 C:\OSPanel\domains\gltest.local\controllers\admin\UserController.php(44): yii\base\Controller->render('index', Array)
+#20 [internal function]: app\controllers\admin\UserController->actionIndex()
+#21 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#22 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#23 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#24 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/user/', Array)
+#25 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#27 {main}
+2018-06-10 22:32:02 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '18448'
+    'REDIRECT_URL' => '/admin/user/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528659122.782
+    'REQUEST_TIME' => 1528659122
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:32:05 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: yii\grid\DataColumn::update' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php:163
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(546): yii\base\BaseObject->__set('update', Object(Closure))
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php(107): yii\BaseYii::configure(Object(yii\grid\DataColumn), Array)
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\grid\\DataCo...', Array, Array)
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\grid\\DataCo...', Array, Array)
+#6 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\grid\GridView.php(547): yii\BaseYii::createObject(Array)
+#7 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\grid\GridView.php(283): yii\grid\GridView->initColumns()
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\grid\GridView->init()
+#9 [internal function]: yii\base\BaseObject->__construct(Array)
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(383): ReflectionClass->newInstanceArgs(Array)
+#11 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('yii\\grid\\GridVi...', Array, Array)
+#12 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('yii\\grid\\GridVi...', Array, Array)
+#13 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Widget.php(137): yii\BaseYii::createObject(Array)
+#14 C:\OSPanel\domains\gltest.local\views\admin\user\index.php(45): yii\base\Widget::widget(Array)
+#15 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(336): require('C:\\OSPanel\\doma...')
+#16 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#17 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\OSPanel\\doma...', Array, Object(app\controllers\admin\UserController))
+#18 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(384): yii\base\View->render('index', Array, Object(app\controllers\admin\UserController))
+#19 C:\OSPanel\domains\gltest.local\controllers\admin\UserController.php(44): yii\base\Controller->render('index', Array)
+#20 [internal function]: app\controllers\admin\UserController->actionIndex()
+#21 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#22 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#23 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#24 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('admin/user/', Array)
+#25 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#26 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#27 {main}
+2018-06-10 22:32:05 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '18450'
+    'REDIRECT_URL' => '/admin/user/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528659125.357
+    'REQUEST_TIME' => 1528659125
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:33:11 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Url' not found' in C:\OSPanel\domains\gltest.local\views\admin\user\index.php:41
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-06-10 22:33:11 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '18573'
+    'REDIRECT_URL' => '/admin/user/'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528659191.042
+    'REQUEST_TIME' => 1528659191
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:45:14 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Call to undefined method app\models\User::findByUsername()' in C:\OSPanel\domains\gltest.local\models\LoginForm.php:76
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2018-06-10 22:45:14 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'YfBKD1kgvhkibiMTFCsewSeh2tj1m844-lA4DHDVbRw2nSk7a0rcW0MfayNtW3O1cuqt9ZL59w2qHkkhL4AaLw=='
+    'LoginForm' => [
+        'username' => 'ololo@mail.ru'
+        'password' => '1989146'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/admin/user/record?id=1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '240'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://gltest.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://gltest.local/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '18894'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528659914.499
+    'REQUEST_TIME' => 1528659914
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:46:54 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][error][yii\base\UnknownMethodException] exception 'yii\base\UnknownMethodException' with message 'Calling unknown method: app\models\User::validatePassword()' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Component.php:300
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\models\LoginForm.php(50): yii\base\Component->__call('validatePasswor...', Array)
+#1 C:\OSPanel\domains\gltest.local\models\LoginForm.php(50): app\models\User->validatePassword('1989146')
+#2 [internal function]: app\models\LoginForm->validatePassword('password', NULL, Object(yii\validators\InlineValidator))
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\validators\InlineValidator.php(72): call_user_func(Array, 'password', NULL, Object(yii\validators\InlineValidator))
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\validators\Validator.php(267): yii\validators\InlineValidator->validateAttribute(Object(app\models\LoginForm), 'password')
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Model.php(367): yii\validators\Validator->validateAttributes(Object(app\models\LoginForm), Array)
+#6 C:\OSPanel\domains\gltest.local\models\LoginForm.php(62): yii\base\Model->validate()
+#7 C:\OSPanel\domains\gltest.local\controllers\SiteController.php(80): app\models\LoginForm->login()
+#8 [internal function]: app\controllers\SiteController->actionLogin()
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#11 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('login', Array)
+#12 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/login', Array)
+#13 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2018-06-10 22:46:53 [127.0.0.1][-][l2df3b6r2fra6birr34eunrrc4][info][application] $_GET = []
+
+$_POST = [
+    '_csrf' => 'YfBKD1kgvhkibiMTFCsewSeh2tj1m844-lA4DHDVbRw2nSk7a0rcW0MfayNtW3O1cuqt9ZL59w2qHkkhL4AaLw=='
+    'LoginForm' => [
+        'username' => 'ololo@mail.ru'
+        'password' => '1989146'
+        'rememberMe' => '1'
+    ]
+    'login-button' => ''
+]
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'l2df3b6r2fra6birr34eunrrc4'
+    '_csrf' => '4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/admin/user/record?id=1'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '240'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://gltest.local'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://gltest.local/site/login'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=l2df3b6r2fra6birr34eunrrc4; _csrf=4cb8f7f5aa9d98641d7056412af909293c827a9e1e7158dc2888ac5853bca17ba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Wmc42jbBaqH0ypmtUKw-gb95PNq-_Uw3%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '18904'
+    'REDIRECT_URL' => '/site/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/login'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528660013.963
+    'REQUEST_TIME' => 1528660013
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:49:39 [127.0.0.1][4][ss7bh237n957cmq84jnt81g3p6][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: app\models\User::username' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('username')
+#1 C:\OSPanel\domains\gltest.local\views\layouts\main.php(50): yii\db\BaseActiveRecord->__get('username')
+#2 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(336): require('C:\\OSPanel\\doma...')
+#3 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\View.php(254): yii\base\View->renderPhpFile('C:\\OSPanel\\doma...', Array)
+#4 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(399): yii\base\View->renderFile('C:\\OSPanel\\doma...', Array, Object(app\controllers\SiteController))
+#5 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#6 C:\OSPanel\domains\gltest.local\controllers\SiteController.php(65): yii\base\Controller->render('index')
+#7 [internal function]: app\controllers\SiteController->actionIndex()
+#8 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#9 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#10 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction('', Array)
+#11 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('', Array)
+#12 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#13 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#14 {main}
+2018-06-10 22:49:39 [127.0.0.1][4][ss7bh237n957cmq84jnt81g3p6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ss7bh237n957cmq84jnt81g3p6'
+    '_csrf' => '51f1b4581f87f8307611bdfdbeccbc985f60815a5f6a1d7b6fa2b4125f6927cba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GoBYn1S3kjc0-HKRHic46GVdt05cJqII\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/admin/user/record?id=1'
+    '__id' => 4
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://gltest.local/admin/user/record?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=ss7bh237n957cmq84jnt81g3p6; _csrf=51f1b4581f87f8307611bdfdbeccbc985f60815a5f6a1d7b6fa2b4125f6927cba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GoBYn1S3kjc0-HKRHic46GVdt05cJqII%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '18950'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528660179.662
+    'REQUEST_TIME' => 1528660179
+    'argv' => []
+    'argc' => 0
+]
+2018-06-10 22:58:43 [127.0.0.1][4][ss7bh237n957cmq84jnt81g3p6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "user/index".' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('user/index', Array)
+#1 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OSPanel\domains\gltest.local\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OSPanel\domains\gltest.local\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2018-06-10 22:58:43 [127.0.0.1][4][ss7bh237n957cmq84jnt81g3p6][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ss7bh237n957cmq84jnt81g3p6'
+    '_csrf' => '51f1b4581f87f8307611bdfdbeccbc985f60815a5f6a1d7b6fa2b4125f6927cba:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"GoBYn1S3kjc0-HKRHic46GVdt05cJqII\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'taiora'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/admin/user/record?id=1'
+    '__id' => 4
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'gltest.local'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru,en-US;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=ss7bh237n957cmq84jnt81g3p6; _csrf=51f1b4581f87f8307611bdfdbeccbc985f60815a5f6a1d7b6fa2b4125f6927cba%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22GoBYn1S3kjc0-HKRHic46GVdt05cJqII%22%3B%7D'
+    'PATH' => 'c:\\ospanel\\modules\\php\\PHP-5.6\\ext;c:\\ospanel\\modules\\php\\PHP-5.6\\pear;c:\\ospanel\\modules\\php\\PHP-5.6\\pear\\bin;c:\\ospanel\\modules\\php\\PHP-5.6;c:\\ospanel\\modules\\imagemagick;c:\\ospanel\\modules\\wget\\bin;c:\\ospanel\\modules\\git;c:\\ospanel\\modules\\git\\bin;c:\\ospanel\\modules\\git\\mingw\\bin;c:\\ospanel\\modules\\git\\cmd;c:\\ospanel\\modules\\database\\MySQL-5.6\\bin;c:\\ospanel\\modules\\http\\Apache-2.4\\bin;c:\\ospanel\\modules\\http\\Apache-2.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'gltest.local'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OSPanel/domains/gltest.local/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OSPanel/domains/gltest.local/web/index.php'
+    'REMOTE_PORT' => '18993'
+    'REDIRECT_URL' => '/user/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/user/index'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1528660723.736
+    'REQUEST_TIME' => 1528660723
+    'argv' => []
+    'argc' => 0
+]
